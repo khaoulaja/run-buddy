@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* apply styles to body*/
+/** apply styles to body*/
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
@@ -15,7 +15,27 @@ section{
     padding: 60px;
 }
 
-/* apply styles to <header> */
+/* utility classes */
+
+.primary-border {
+    border-bottom: 3px solid #fce138;
+
+}
+
+.secondary-border{
+    border-bottom: 3px solid #39a6b2;
+}
+
+.text-left{
+    text-align: left;
+     }
+    
+     .text-right{
+    text-align: right;
+     }
+/* end of utility classes */
+
+/** apply styles to <header> */
 header {
    margin: 0;
     padding: 20px 35px;
@@ -49,6 +69,7 @@ header {
     font-weight: lighter;
     font-size: 22px;
   }
+
   /**styling the footer*/
   footer {
       background-color: #fce138;
@@ -119,7 +140,7 @@ header {
 }
   /* Hero styles end */
 
-/* sections title stye */
+/* sections title styles */
 .section-title{
     font-size: 55px;
     color: #024e76;
@@ -127,15 +148,11 @@ header {
     padding: 0 100px 20px 100px;
     display: inline-block;
 }
-/* end sections title stye */
+/* end sections title styles */
+
   /* what we do styles */
 .intro{
     text-align: center;
-}
-
-.primary-border {
-    border-bottom: 3px solid #fce138;
-
 }
 
 .intro p{
@@ -151,10 +168,6 @@ header {
   .steps{
       background-color: #fce138;
       text-align: center;
-  }
-
-  .secondary-border{
-      border-bottom: 3px solid #39a6b2;
   }
 
   .steps div{
@@ -175,9 +188,49 @@ header {
   .steps span{
 font-size: 38px;
   }
-  
+
   .steps p{
       color: #39a6b2;
       font-size: 23px;
   }
   /* end what you do styles */  
+
+  /* meet the trainers styles */
+  .trainers{
+      text-align: center;
+  }
+
+  .trainer{
+      width: 900px;
+      margin: 0 auto 30px auto;
+      background: #024e76;
+      color: #fce138;
+      overflow: auto;
+  }
+ .trainer img{
+     width: 35%;
+     float: left;
+ }
+
+ .trainer-bio{
+     padding: 35px;
+     float: left;
+     width: 65%;
+ }
+
+ .trainer-bio h3{
+     font-size: 32px;
+     margin-bottom: 8px;
+ }
+
+ .trainer-bio h4{
+     font-size: 26px;
+     font-weight: lighter;
+     margin-bottom: 25px;
+ }
+
+ .trainer-bio p{
+     font-size: 17px;
+     line-height: 1.3;
+ }
+  /* end meet the trainers styles */
