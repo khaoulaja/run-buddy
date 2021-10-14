@@ -36,11 +36,11 @@ section{
 /* end of utility classes */
 
 /** apply styles to <header> */
-header {
-   margin: 0;
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+    /* header {
+        margin: 0;
+        padding: 20px 35px;
+        background-color: #39a6b2;
+    } */
 
   header h1{
       font-weight: bold;
