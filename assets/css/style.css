@@ -40,6 +40,9 @@ section{
         margin: 0;
         padding: 20px 35px;
         background-color: #39a6b2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
   header h1{
@@ -47,7 +50,6 @@ section{
       font-size: 36px;
       color: #fce138;
       margin: 0;
-      display: inline;
   }
 
   header a {
@@ -56,8 +58,8 @@ section{
   }
 
   header nav {
-      float: right;
       margin: 7px 0;
+      align-content: flex-end;
   }
 
   header nav ul li {
