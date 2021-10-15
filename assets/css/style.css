@@ -30,9 +30,13 @@ section{
     text-align: left;
      }
     
-     .text-right{
+.text-right{
     text-align: right;
-     }
+        }
+
+.flex-row{
+    display: flex;
+}
 /* end of utility classes */
 
 /** apply styles to <header> */
@@ -170,15 +174,19 @@ section{
 .section-title{
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    /* margin-bottom: 35px;
     padding: 0 100px 20px 100px;
-    display: inline-block;
+    display: inline-block; */
 }
 /* end sections title styles */
 
   /* what we do styles */
 .intro{
-    text-align: center;
+    /* text-align: center; */
 }
 
 .intro p{
@@ -187,13 +195,14 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
   /* end what we do styles */
 
   /* what you do styles */
   .steps{
       background-color: #fce138;
-      text-align: center;
+      /* text-align: center; */
   }
 
   .steps div{
@@ -264,7 +273,7 @@ font-size: 38px;
   /*Reach out styles  */
   .contact{
       background-color: #024e76;
-      text-align: center;
+      /* text-align: center; */
   }
   .contact h2{
       color: #fce138;
